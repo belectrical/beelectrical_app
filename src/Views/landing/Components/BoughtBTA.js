@@ -20,10 +20,10 @@ import {Heading,
 const BoughtBTA = () => {
   const toast = userToast();
   const [toBuy, setToBuy] =useState(100)
-  const [addres, setAddres] =useState()
+  const [addres, setAddres] =useState()};
   
   const handleSubmit = async (event) => {
-    event.preventDefault();
+    event.preventDefault()};
     
     // validar que la direccion mida 56 caracteres.
     if(address.lenght !== 56){
@@ -70,7 +70,7 @@ const BoughtBTA = () => {
       <InputGruop mt={3}>  
       <InputLeftElement children={<Icon nome="unlock" color='gray.300' />} />
       <Input 
-         onChange={( { target: {value}} ) =>setAddress(value)}  placeholder='your wallet address of stellar.'/>
+         onChange={( { target: {value}} ) =>setAddress(value)}  placeholder="your wallet address of stellar."/>
       </InputGruop>
       <Button mt= {10} type= "submit" width= 100% variantColor = "teal"> BUY </Button>
      </Box>
